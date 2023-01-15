@@ -3,6 +3,10 @@
   <groupId>Demo</groupId>
   <artifactId>devops-jenkins</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+ <properties>
+    <maven.compiler.source>1.6<maven.compiler.source> 
+    <maven.compiler.target>1.6<maven.compiler.target>
+    </properties>
   <build>
   <plugins>
   <plugin>
@@ -15,10 +19,7 @@
     <manifest>
     <addClasspath>true</addClasspath>
     <mainClass>com.kkjavatutorials.app.App</mainClass>
-    <properties>
-    <maven.compiler.source>1.6<maven.compiler.source> 
-    <maven.compiler.target>1.6<maven.compiler.target>
-    </properties>
+   
     </manifest>
     </archive>
     </configuration>
